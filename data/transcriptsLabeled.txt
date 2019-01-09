@@ -1,0 +1,577 @@
+Aaliyan Khan	53	40
+Yifan Kang	49	38
+Janey Song	47	34
+Elaine Liu	52	39	F52	F38
+YanLing Chen	87	94	F77
+Leslie Wen	80	91	F72
+Daniel Kim	84	91	F72
+Tiffany Lum	69	91	F72
+Selina Hsu	52	39	F52	F38
+Rose Lin	47	34
+Natalee Veisi	47	34
+Angelina Tang	49	38
+Anjana Somasundaram	83	94	F77
+Ashna Jain	86	F65
+Daniel Ye	79	31	67
+Joy He	36	35
+Felicia Nguyen	51	31
+Ben Wahl	44	30
+Cathy Qiu	51	31
+Emily Steiner	36	35
+Aditi Venkatraman	44	30
+Hannah Mabee	75	97	98	F75
+Samantha Unger	90	91	F79
+Genevieve Norris-Roozmon	86	91	F79
+Mary Ditta	85	44	95
+Oscar Chong	75	99	100	F61
+Kevin Shen	83	87	90
+Jennifer Huynh	80	89	F74
+Denesh Peramakumar	88	99	83	F87
+Irina Petrovic	95	88	F72
+Alina Pace	86	91	F68
+Olga Starenky	94	95	50
+Benjamin Ma	84	88	F72
+Ananya Vishwanath	78	80	89
+Rikard Saqe	77	93	89	F72
+Michal Moshkovich	88	90	96	F61
+Josephine Winsor	90	95	99	F96
+Zoe Johnson	85	100	78
+Nicole Wen	40	30
+Kiza Zia	40	30
+Rabia Qureshi	40	30
+Kevin Wong	49	31
+Naail Zubair	49	31
+Devan Flaming	83	94	98	F92
+Michael Brigmohan	49	31
+Andrew Jiang	78	94	97	F79
+Amanda Brotman	55	74
+Maia Jeffries	79	74
+Jordana Haber	70	74
+Shelly Palchik	80	83
+Yuval Gutman	86	83
+Parth More	82	F94
+Alain Lou	87	85
+William Wen	83	85
+Kevin Lee	78	88
+Esme Sanders	89	95	92	F96
+Martin Koo	54	40	F50	F40
+Andrew Marin	84	95	F56
+Flora Sun	83	100	F86
+Preston Tse	86	88
+Jing Yi Wang	82	83
+Claire Shaw	91	97	98	F76
+Dagny Reese	74	72
+Reese OCraven	87	78
+Cathy Fan	80	79
+Sarina Wong	88	86	95	F76
+Steven Han	86	95	F67
+Vincent Song	79	91	79
+Ivan Kwong	80	72
+Rithvik Swamynathan	82	95
+Audrey Ho	54	40	F50	F40
+Sooyeon Lee	58	37	F47	F31
+Esther Yue	58	37	F47	F31
+Nipun Shukla	90	72
+Pradnaya Pathak	79	85	94
+Alexander Goleszny	87	100	89	F52
+Ben Jones	93	96	66	F78
+Eileen Huang	82	F94
+Sebastian Tsang	86	61	98
+Nancy Ji	83	95
+John Cameron	74	94	F82
+Celeste D	83	91	99	F94
+Keira Engelen	88	99	F69
+Kyra Gilson	49	35
+Donna Xue	75	96	F85
+Harshita Chowdhry	50	31
+Namisha Sharma	85
+Anmol Chahal	50	31
+Saakshi Shah	85
+Melissa Meighoo	50	31
+Katha Patel	52	40	F41	F35
+Bavethra Sinnathamby	52	40	F41	F35
+Eden Wondmeneh	77	85	F86
+Isha Trivedi	42	32
+Khalid Talakshi	81	78
+Robert Chinezon	82	67	74
+Sumanth Subbaraman	90	94	F49
+Samantha Lin	83	95	92	F76
+Sezgi Yanikomeroglu	87
+Max Adams	74	95
+Jennifer Qu	51	39
+Carlee Olson	51	39
+Andrew McBain	83	89	F77
+Angela Chen	74	81
+Emily Pittman	84	81
+Selin Bilgic	54	37
+Rasa Seraji	37	31
+Veronica Mohan	37	31
+Cici Ye	54	37
+Gurnoor Minhas	87	85	88
+Armaan Marwaha	45	30
+Luca D'Alessandro	77	84
+Nikita Pasricha	45	30
+Priyal Patel	57	39	F41	F30
+Mehar Bhamrah	57	39	F41	F30
+Ethan Cabral	35	27
+Marzouq Khan	52	40	F27	F29
+Megan Singh	50	36	F48	F31
+Shaira Shafiquzzaman	88	77	91
+Tanmay Vasa	90
+Jasleen Gill	57	39	F41	F30
+Varun Khatri	35	27
+Rahul Anil	35	27
+Jay Shah	77	92	94	F91
+Ranjodh Gill	52	40	F27	F29
+Gursimran Dhillon	69	85
+Harkaran Ghotra	76	99	F85
+Jashan Bola	80	93
+Simrat Minhas	81	99	F85
+Julian Greco	88	92	84
+Basile Montagnese	40	39
+Daeun Chung	40	39
+Matt Hoffman	83	82	73
+Rocco Ruan	50	40	F44	F23
+Yusuf Bhatti	50	40	F44	F23
+Terris Zhu	50	40	F44	F23
+Selina Lam	84	99	F71
+Emily Ma	87	99	F71
+Amy Zhao	87	50
+Jonathan Yapeter	83	87
+Adrian Yip	87	99	79
+David Yao	84	87
+Andy Liao	81
+Andrew Chan	86
+Oliver Pan	93	F79
+Darren Wong	73
+Sean Lei	F70
+Richard Jiang	47	36
+Karthik Ganapathiraju	81
+Michelle Zou	83	100	F86
+Sagaana Sivathason	89	93	F83
+Daniel Jiang	80	93	92
+Jenny Lin	87	98	F74
+Emily Lai	79	93	81
+Sanindie Silva	45	39
+Jason Liu	86	84	47
+Matthew Wang	51
+Lance Uy	47	36
+Dailon Shan	89
+Celine Cheung	86	F78
+Joan Lee	45	39
+Brayden Lee Loy	89
+Grace Gong	85	100	F86
+Rex Huang	86
+Serena Yu	85	67
+Justin Kwok	81
+Natalie Wong	86	F78
+Chloe Chau	85	95	96	F100
+James Tang	86	F78
+Lizhe Xie	83	67	56
+Cody Ha	89
+Felix Chan	80	91	F84
+Kylie Yuen	91	94	F96
+Jenny Zhang	87	99	90	F96
+Saad Masood	F70
+Reece Connelly	47	37
+Dasia Jeffery	47	37
+Kristen Tyrovolas	47	37
+Jordan Juravsky	88	60
+Josh Zwiebel	84	60
+Justin Grad	80	95	74
+Faiz Momin	66	94
+Michelle Park	78	98	78
+Aryan Mehra	84	95	74
+Austin Teshuba	84
+Urvi Patel	58	40	F59	F38
+Trevor Carlson	79
+Hannah Velle	90	90	F85
+Lindsay Mark	58	40	F59	F38
+Michael Taran	83
+Sage Milne	50	34
+Lisanne Peters	83
+Pranaav Mahendra Kumar	52	34	F52	F35
+Mahima Siali	84	88	91
+Samta Jain	85	86	97	F83
+Breana Dudemaine	77	73	99
+Kosta Tzanis	43	33
+Kabir Walia	70
+Vipul Gupta	43	33
+Kiyan Heybati	43	33
+Isabella Giancola	50	40
+Elisa Luan	51	37	F39	F22
+Jessica Hum	51	37	F39	F22
+Cathy Zhang	86	69	85
+Valerie Ngai	77	33
+Alex Joo	82	88
+Iris Wu	89	33
+Prapthi Agarwala	45	32
+Lauren Fichman	47	39
+Samar Totonchy	47	39
+Anik Babul	85	98	73	F81
+Samantha Grant	82	86	100	F78
+Emily Kemp	47	31
+Natallie Chow	47	31
+Samantha Ung	44	38
+Alice Zhang	44	38
+Yin Feng Liu	52	31
+Annie Obnowlenny	56
+Natalie Enriquez-Birch	87	69	82
+Elham Islam	83	85
+Parth Sareen	86	88	98	F62
+Henry Zhang	80	85
+Rabia Tahir	88	96	97	F60
+Kyle Chang	81	80	F70
+Ryan Cheng	83	86	92
+Keshiv Kaushal	85	96	F95
+Christian Gnam	86	96	F95
+Cory Gill	82	80	F70
+Jasmine Zhou	84	86	F62
+Kerry Zheng	81	96	82
+Alyssa Guo	91	100	F75
+Jeffrey Yen	80	90
+Jane Hwang	79	86	F62
+Evelyn Ku	84	87	F90
+Rebecca Lee	90	F87
+Catherine Wan	80	59	86
+Matthew Yen	60	90
+Kevin Zhang	79	86	83
+Logan Kieller	90	72	92	F72
+Hassan El-Essawi	89	97	F86
+Catalina Garzon	85	99	90	F61
+Victor Sun	74	90	44
+Andrew Dai	76	97
+Alycia Berg	86	94	F84
+Weston Farnworth	87	F79
+Jamie Zucker	87	F79
+Taylor Nelson	48	37
+Akshay Maharaj	52	35
+Maheedhar Gummadi	87	F79
+Garnet Delsey	52	35
+Stephanie Tywonek	48	37
+Sunny Xiao	78	F80
+Victoria Wang	87	94	F98
+Karren Xiao	87	94
+Emily Xiao	90	91	F80
+Nicole Tong	42	25
+Eric Peng	52	39	F49	F35
+Tony Ni	78	F80
+Hong Yi Chen	52	39	F49	F35
+Dena Salehipour	88	75	70
+Gal Meartsi	84	94	F98
+Benjamin Ma	52	39	F49	F35
+Shirley Liu	42	25
+Selina Liu	75	95
+Beryl Chen	47	27
+Anthea Fu	47	27
+Sara Hodaie	82	81
+Lucy Wang	85	81
+Helen Zhang	77	70
+Maddie Tanzola	76	70
+Cynthia Deng	83	89
+Bai He Chen	40	31
+Tony Xu	50	23
+Soyeon Kim	40	31
+Valerie Lin	44	33
+Maya Makim	44	33
+Katherine Chen	40	31
+Ivy Deng	87	87	99	F57
+Shayan Khalili	50	23
+Jessica Puros	44	33
+Vyoma Fadia	89	83	99	F99
+Shivam Aggarwal	88	83
+Rose Zhang	49	31
+Georgia Bryson	49	31
+Daniella Serrador	88	93	83	F81
+Isabel Kleinbub	44	38
+Madi Miller-Gouk	44	38
+Jensen Pletch	44	38
+Maisha Fahmida	68	93	F59
+Shauda Islam	71	56
+Angel Cai	84	56
+Maheep Bagha	78	93	F59
+Rajul Ghelani	41	34
+Gurleen Badwal	95	F96
+Jasmeet Aulakh	48	28
+Ananya Jaikumar	86	88	F75
+Thomas Li	86	81	F67
+Dollar Luo	87	63
+Harry Chen	88	95	F89
+Amy Zhang	86	63
+Eman Muzzammil	85	97	66
+Fayha Najeeb	87	86
+Shyam Hari	75	72
+Faris Butt	83	72
+Hana Mucevic	85	81
+Andy Liu	90	97	F67
+Mariya Ahmed	73	81
+Emily Wang	91	86
+YuAn Chen	90	67	80
+Shankeran (Eran) Vijayakumar	85	90	76	F67
+Shankeri Vijayakumar	70	98
+Steven Du	89	89	90	F55
+Muhammad Fayk Chaudhry	81	81	98
+Anjing Li	76	90	F78
+Andrew Li	88	98	89
+Laura Lu	82	100	F99
+Tom Liu	82	80
+Jason Cai	76	80
+Harrison Chiu	83	87	F79
+Eric Shang	89	87	F79
+Angela Pang	93	100	F99
+Justin Ye	86	85
+Emily Shen	75	90	F78
+Grace Xiong	88	85
+Jonathan Uy	94	86	F62
+Alex Yu	89	97	F82
+Paul Shen	81	100
+Alexander Lee	49	37	F50	F35
+Kevin Lee	76	97	F92
+Yash Arora	93	F78
+Tara Rafi	39
+Sarah You	90	88	F50
+Veronica Cui	52	37	F50	F37
+Sunny Su	84	71
+Kevin Jain	92	87	94	F92
+Joyce Truong	52	37	F50	F37
+Siyao Chen	49	37	F50	F35
+Dani Fox	39
+Jacqueline Palik	73	80
+Sihan Su	71	87
+Julia Li	86	70	72	F85
+Justin Wang	81	69
+Michelle Skidelsky	83	69
+Angela Mao	73	87
+Jimmy Yan	83	97	F92
+Eddie Sun	96	F86
+Jiale Tom Tian	85	97	97	F97
+Annette Schiller	59	40	F35	F26
+Sophia Rybnik	59	40	F35	F26
+Samuel Chen	51	40	F40	F21
+Neil Sharma	51	40	F40	F21
+Jugal Patel	51	40	F40	F21
+Chandni Shah	59	40	F35	F26
+Sashini Mahadurage	57	33
+Ashley Lin	57	33
+Rachel Deng	57	33
+Angela Zhu	81	100	82	F83
+Maria Sajan	50	37
+David Vaz	50	37
+Jiwon Park	83	93	F64
+Shaan Mehta	91	84
+Sophie Li	76	91	F84
+Salah Mahdi	82	84
+Keshav Chawla	89	98	100	F91
+Ashif Burkutoola	80	89	83	F98
+Megan Tu	79	91	F84
+Haosong Chen	83	98	97	F66
+Melody Yu	43	33
+Lily Tao	77	73
+Helena Teng	76	73
+Chris Li	77	92	F87
+Michael Ding	78	94	F72
+Victor Liu	85	94	F72
+Helen Wong	82	99	F60
+Jonathan Young	69	92	F87
+Cynthia Ren	81	81	93	F43
+Jonathan Cui	86	89	79	F56
+Andy Zhu	49	40
+Carrie Lu	74	82
+Celina Chen	88	94	97	F52
+Jerry Xie	48	35
+Ryan Ma	49	40
+Jenny Fan	79	99	F83
+Victoria Leung	52	37
+Cecilia Xia	85	94	98	F86
+Annie Ding	46	32
+Michelle Cao	54	34
+Kelly Hu	39	36	F44	F37
+Neha Nerevetla	54	40	F47	F35
+Dennis Bae	32	36	F39	F34
+Angela Chen	48	35
+Ryan Ouyang	59	40	F50	F37
+Nikita Li	81	98
+Anna Ma	86	82
+Jinwu Liu	42	38
+Pensee Liang	54	40	F47	F35
+Oustan Ding	59	40	F50	F37
+Daniel Lu	87	83
+Taneya Raguram	54	40	F47	F35
+Grace Huang	82	93	75
+Olivia Zhang	87	90	F73
+Allen Lu	54	34
+Tracy Zhu	84	87	F78
+Ivan Qian	83	92	98	F100
+Asma Khamis	86	95	87	F88
+Catherine Sheng	80	99	F83
+Darren Young Shing	88	86
+Varun Mokashi	52	37
+Amey Dhamgunde	49	40
+Mateen Roushani	59	40	F50	F37
+Richard Zhu	80	92
+Aaron Zhang	39	36	F44	F37
+Michelle Lam	88	86
+Anish Agnihotri	39	36	F44	F37
+Nicholas Chung-Hun	74	92
+Colin Chu	88	78
+Brianna Fan	89	88	100	F60
+Maya Jain	91	100	F93
+Tamara Kwan	46	32
+Ariel Peleg	87	77
+Vitasta Dhar	57	39
+Carae Henry	75	94	F59
+Noor Naeem	57	39
+Jessica Yang	85	100	F82
+Abbas Canteenwala	78	89	94
+Stephanie Xiang	95	87	F81
+Tyler Moore	74	79
+Ali Malik	59	37	F47
+Ayath Azhar	55	26
+Jacqueline Johnson	55	26
+Abirami Sudharshan	54	36	F55	F39
+Isabella Li	78	100	F82
+Vidit Desai	54	36	F55	F39
+Sonya Zhang	54	36	F55	F39
+Areeb Athar	84	84	79	F100
+Benson Wieler	71	79
+Diya Ahmad	47	38
+Aporova Shenoy	57	39
+Arushi Wadhwa	41	31
+Jasleen Sidhu	73	99	F75
+Ningsong Shen	89	84
+Mira Yadav	87	F73
+Nitin Reddy	71	91	82
+Kevin Ding	82	79
+Simren Sharma	83	99	F75
+Ethan Siu	85	94	F92
+Matthew Ly	83	92
+Eric Zhai	84	74
+Shreyas Kadambi	86	87
+William King	86	90	F73
+Eric Chen	93
+Matthew Ding	83	73
+Jason Liu	83	90	F73
+Tarek Bouri	81	67	68	F86
+Kairui Zeng	82	68	88
+Aarti Joshi	89	94	F92
+Amanda Plotnik	86	57
+Janakitti Ratana-Rueangsri	93
+Jerry Yang	73	74
+Immanuel Huang	90	73
+Ruqing Pei	89	91	72	F97
+Yifei Zhang	98	F88
+David Fan	70
+Harry Zhao	70
+Caitlin Boyle	50	40
+Giselle Saldanha	50	40
+Joshua Bissoon	83	70
+Tanveer Mohan	75	64	96
+Helen Wang	86	100	F82
+Angela Zhang	54	35
+Hannah Strecheniuk	68	77
+Jessie Tu	92	F81
+Yash Gajaria	86	96	100	F91
+Mudra Patel	41	36
+Krisha Thakkar	41	36
+Troy Sgro	83	79
+Sasha Dobisz	86	79
+Joshua Chua	80	83
+Sonya Cao	85	98	F61
+Vivian Liu	79	98	F61
+Adam Dorfman	89	F95
+Grace Wu	73	83
+Alvin Lee	87	85	100	F84
+Hansen Liu	86	95	94	F62
+Henry Curtis-Dyck	87	61	57
+Xin Ran (Phyllis) Huang	69	80
+Ilar Haydarian	74	80
+Dasni Samarasena	92	91	F75
+Jasdeep Bhondi	86
+Pranav Walia	86
+Anchita Suri	84	91	F75
+Eyitade Kunle-Oladosu	87	79
+Tess Jakob	75	67
+Jenna Dart	70	90	85
+Matt Rabinovitch	78	77
+Sam Lampert	79	77
+Megan Boone	81	67
+Matthew Paulin	42	32
+Benji Saltz	42	32
+Sydney Perez	84	94	98	F28
+Justin Cheptea	54	40	F56	F36
+Sherry Yang	54	40	F56	F36
+Jude Lobo	54	40	F56	F36
+Alex Bancea	78	75
+Jake Birkness	85	75
+Aidan Lawford-Wickham	53	34
+Cameron Smith	52	40	F53	F36
+Matthew Thompson	96	F84
+Anannay Sood	80
+Abdelrahman Noureldin	56	37
+Gary Kong	37
+Matt Wilson	48	38	F59	F40
+Lily Liu	38
+Vanshik Patel	52	40	F53	F36
+Sophia Van	43	37
+Jane Smallman	48	38	F59	F40
+Ava Waugh	38
+Daniel Levin	56	37
+Asher Hounsell	42	35	F39	F34
+Ian Chan	53	34
+Lydia Elbatarny	42	35	F39	F34
+Johnson Lee	52	40	F53	F36
+Erica Park	43	37
+Justin Leung	60	39	F35	F29
+Liam Andrew	56	37
+Alex Chan	42	35	F39	F34
+Sarah Hesp	38
+Ian Ramzy	96	F84
+Criswyn Paul	60	39	F35	F29
+Zhen Wang	37
+Wasif Butt	85	85	93	F99
+Jasdeep Dhillon	87	94	88	F78
+Bhavneet Bhatoa	77	65	92	F58
+Malavika Patel	80	78	83
+Anoushka Prasad	80	89	85
+Harkiran Kaur	73	100	85
+Mahika Mehta	81	91
+Andy Chen	82	89	F83
+Maanav Dalal	89	83	92	F60
+Bani Arora	76	90	F83
+Esa Ahmad	77	98	84
+Sarvesh Gambhir	77	92	F94
+Harjaap Brar	82	91
+RASHI Ramchandani	74	48
+Vanit Shah	81	48
+Sharon Chatha	83	F90
+Dhruv Shah	75	89	F83
+Arnav Paruthi	86	90	F59
+Anish Mahto	80	92	F94
+Harleen Cheema	86	94	78	F60
+Gurmehak Turna	82	91	F81
+Tanzim Pathan	89	97	F78
+Muhammad Arif	78	86	95
+Maria Diogenous	42	38
+Kate Brown	82
+Alex Fullerton	80	73	70
+Lauryn Noble	82
+Syed Saad Mateen	84	49	96
+Ruchika Gautam	88	85
+James Quinlan	86	75	85
+Nabeelah Zaman	85
+Jake Koszczewski	52	29
+Yilin Ren	81	86
+Vithusha Yogathasan	54	37
+Thenusha Yogathasan	52	29
+Shaughnessy ONeill	54	37
+Charul Narain	50	33	F49	F32
+Abbisha Saseekaran	50	33	F49	F32
+Hayley Banks	43	24
+Alice Glogova	50	33	F49	F32
+Julia Ip	54	37
+Cameron Jedemann	43	24
+Ali Muhammad	86	67
+Joseph Bellissimo	83	87	97
+Amanda(JiaYang) He	92	94	96	F79
+Mylissa Tom	89	90
+David Sprague	83	90
