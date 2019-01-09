@@ -37,6 +37,6 @@ AllFrom("Iroquois Ridge HS", "Oral 2 Score")
 from rankerFunctions import Rank, Find, AllFrom
 
 #Rank("BLTDM", "Overall Score")
-Find("Rebecca Lee", "Overall Score")
-#AllFrom("Iroquois Ridge HS", "Overall Score")
+#Find("Rebecca Lee", "Overall Score")
+AllFrom("Iroquois Ridge HS", "Overall Score")
 print("Written to output.txt and output.tsv")
