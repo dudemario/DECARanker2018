@@ -7,9 +7,11 @@ Date: July 29, 2018
 
 Program: Ranker for 2018 DECA Provincials Competition and International Scores
 
-Main Program File: ProvsRanker.py
+#### SQL Version
 
-Imported Files: rankerFunctions
+Main Program File: dbRanker.py
+
+Setup File: dbSetup.py
 
 Program Functions: Writes output to output.txt nicely formatted and in output.tsv for spreadsheet applications.
 
@@ -21,6 +23,12 @@ Ranks all competitors in the event according to the sorting attribute specified.
 Sort By is one of: "Overall Score", "Exam Score", "Oral 1 Score", or "Oral 2 Score".
 Examples:
 Rank("ACT", "Overall Score")
+
+#### Additional Functions in Data Structure Version
+
+Main Program File: ProvsRanker.py
+
+Imported Files: rankerFunctions
 
 Find(<ID/Name>):
 Use (DECA Provincial ID) or (first and last name seperated by a space), enclosed in quotations.
@@ -43,8 +51,3 @@ Note for International Scores:
 First score is for exam,
 Next 1/2 scores is for preliminary orals,
 Last score is for final case if qualified, denoted with an "F" in front of the score.
-
-Limitations:
-Cannot rank international scores;
-No written event rankings;
-Medium Efficiency - can be improved.
