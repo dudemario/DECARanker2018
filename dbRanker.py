@@ -7,10 +7,23 @@ Created on Wed Jan 23 01:23:07 2019
 """
 
 import sqlite3
+import dbSetup
+
+def checkDatabaseExists():
+    try:
+        conn = sqlite3.connect('DECAScores.db')
+        c = conn.cursor()
+        c.execute('SELECT event FROM indiv18 WHERE indiv18.name = "Victor Sun"')
+        c.fetchall()[0][0].strip()
+        c.close()
+        conn.close()
+    except sqlite3.OperationalError:
+        c.close()
+        conn.close()
+        dbSetup.main()
     
-def Rank(event, sort, id="", justOne=False, schoolAr=[]):
-    conn = sqlite3.connect('DECAScores.db')
-    c = conn.cursor()
+def Ranker(event, sort, c, id="", justOne=False, schoolAr=[]):
+    checkDatabaseExists()
     fOut = open("output.txt", "w")
     fOut2 = open("output.tsv", "w")
     teams = ["BLTDM", "FTDM", "HTDM", "TTDM", "BTDM", "MTDM", "STDM", "ETDM"]
@@ -83,8 +96,7 @@ def Rank(event, sort, id="", justOne=False, schoolAr=[]):
                   WHERE 
                       comp1s.comp1Name < comp2s.comp2Name 
                   ORDER BY 
-                      ?
-                  DESC;''', (event, event, event, event, "comp1s.team"+sort))
+                      '''+"comp1s.team"+sort+" DESC;", (event, event, event, event))
         teams = c.fetchall()
         fOut.write("Event: "+event+"\nRank\tSchool\t\t\t\t\tID\tName\t\t\tID\tName\t\t\tScore\tRegion\n")
         fOut2.write("Event\tRank\tSchool\tID\tName\tID\tName\tScore\tRegion\n")
@@ -113,7 +125,7 @@ def Rank(event, sort, id="", justOne=False, schoolAr=[]):
             except (KeyError):
                 print("KeyError: "+team[8]+" "+team[15])
     else:
-        c.execute("""
+        c.execute('''
                   SELECT
                       *
                   FROM
@@ -121,9 +133,7 @@ def Rank(event, sort, id="", justOne=False, schoolAr=[]):
                   WHERE
                       i.event = ?
                   ORDER BY
-                      ?
-                  DESC
-                  """, (event, sort))
+                      '''+"i."+sort+" DESC;", (event,))
         scores = c.fetchall()
         fOut.write("Event: "+event+"\nRank\tSchool\t\t\t\t\tID\tName\t\t\tScore\tOral1\tOral2\tExam\tRegion"+"\n")
         fOut2.write("Event\tRank\tSchool\tID\tName\tScore\tOral1\tOral2\tExam\tRegion"+"\n")
@@ -132,13 +142,13 @@ def Rank(event, sort, id="", justOne=False, schoolAr=[]):
                 score = scores[i]
                 title = ""
                 if justOne:
-                    if team[0] == id or team[1] == id:
+                    if score[0] == id or score[1] == id:
                         schoolAr.append((i+1, score))
                         break
                 else:
                     title=""
                     if id != "":
-                        if team[0] == id or team[1] == id:
+                        if score[0] == id or score[1] == id:
                             title = "Here"
                     fOut.write(str(i+1)+title+"\t"+score[4].ljust(35, " ")+"\t"+(str(score[0])+"\t"+score[1]).ljust(25, " ")+"\t"+str(score[9])+"\t"+str(score[6])+"\t"+str(score[7])+"\t"+str(score[5])+"\t"+score[2].ljust(12, " ")+"\n")
                     fOut2.write(event+"\t"+str(i+1)+"\t"+score[4]+"\t"+str(score[0])+"\t"+score[1]+"\t"+str(score[9])+"\t"+str(score[6])+"\t"+str(score[7])+"\t"+str(score[5])+"\t"+score[2]+"\n")
@@ -146,8 +156,47 @@ def Rank(event, sort, id="", justOne=False, schoolAr=[]):
                 print("KeyError: "+score[0])
     fOut.close()
     fOut2.close()
+    
+def Rank(event, sort):
+    conn = sqlite3.connect('DECAScores.db')
+    c = conn.cursor()
+    Ranker(event, sort, c)
+    c.close()
+    conn.close()
+
+
+def Find(personID, sortby):
+    checkDatabaseExists()
+    conn = sqlite3.connect('DECAScores.db')
+    c = conn.cursor()
+    
+    if personID.isdigit():
+        toFind = "id"
+    else:
+        toFind = "name"
+    c.execute('''
+              SELECT 
+                  event
+              FROM 
+                  indiv18
+              WHERE '''+"indiv18."+toFind+" = ?",(personID,))
+    events = c.fetchall()
+    if len(events) == 1:
+        Ranker(events[0][0], sortby, c, id=personID)
+    else:
+        c.execute('''
+              SELECT 
+                  event
+              FROM 
+                  team18
+              WHERE '''+"team18."+toFind+" = ?",(personID,))
+        events = c.fetchall()
+        if len(events) == 1:
+            Ranker(events[0][0], sortby, c, id=personID)
+        else:
+            print("Cannot find "+personID)
     c.close()
     conn.close()
     
 if __name__ == "__main__":
-    Rank("BTDM", "overall")
+    Find("Victor Sun", "overall")
