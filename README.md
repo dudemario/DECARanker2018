@@ -11,7 +11,7 @@ Program: Ranker for 2018 DECA Provincials Competition and International Scores
 
 Main Program File: dbRanker.py
 
-Setup File: dbSetup.py
+Imported File: dbSetup.py
 
 Functions:
 
@@ -22,12 +22,6 @@ Sort By is one of: "Overall Score", "Exam Score", "Oral 1 Score", or "Oral 2 Sco
 Examples:
 Rank("ACT", "Overall Score")
 
-### Additional Functions in Data Structure Version
-
-Main Program File: ProvsRanker.py
-
-Imported Files: rankerFunctions
-
 Find(<ID/Name>):
 Use (DECA Provincial ID) or (first and last name seperated by a space), enclosed in quotations.
 Locates the competitor and ranks that event. "Here" is displayed beside the competitor's rank in the output files.
@@ -35,6 +29,12 @@ Sort By is same as above.
 Examples:
 Find("Victor Sun", "Exam Score");
 Find("10151", "Oral 1 Score")
+
+### Additional Functions in Data Structure Version
+
+Main Program File: ProvsRanker.py
+
+Imported Files: rankerFunctions
 
 AllFrom(\<School Name>):
 School Name, usually with abbreviated ending such as HS, SS, CI, etc., enclosed in quotations.
