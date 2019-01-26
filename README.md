@@ -41,7 +41,6 @@ School Name, usually with abbreviated ending such as HS, SS, CI, etc., enclosed 
 Ranks every competitor from the school according to their rank in their respective events.
 First ranks all the individual events, then all the team events.
 Sort By is same as above
-Note: This function takes a while longer than the rest
 Examples:
 AllFrom("Iroquois Ridge HS", "oral2")
 
