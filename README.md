@@ -3,7 +3,7 @@ Ranks DECA Provincials competitors by overall, exam, or oral scores.
 
 Creator: Victor Sun
 
-Date: July 29, 2018
+Date: July 29, 2018, Updated: Jan. 25, 2019
 
 Program: Ranker for 2018 DECA Provincials Competition
 
