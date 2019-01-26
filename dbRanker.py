@@ -113,7 +113,7 @@ def Ranker(event, sort, c, id="", justOne=False, schoolAr=[]):
                 '''
                 if justOne:
                     if team[8] == id or team[9] == id or team[15] == id or team[16] == id:
-                        schoolAr.append((i+1,team))
+                        schoolAr.append((i+1,event,team))
                         break
                 else:
                     #finalScores = getFinalScore(event, team[1].chapter, scorePerson1.getName(), scorePerson2.getName())
@@ -143,7 +143,7 @@ def Ranker(event, sort, c, id="", justOne=False, schoolAr=[]):
                 title = ""
                 if justOne:
                     if score[0] == id or score[1] == id:
-                        schoolAr.append((i+1, score))
+                        schoolAr.append((i+1, event, score))
                         break
                 else:
                     title=""
@@ -197,6 +197,137 @@ def Find(personID, sortby):
             print("Cannot find "+personID)
     c.close()
     conn.close()
+
+def AllFrom(school, sortby):
+    checkDatabaseExists()
+    conn = sqlite3.connect('DECAScores.db')
+    c = conn.cursor()
+    c.execute('''
+              SELECT 
+                  name, 
+                  event
+              FROM 
+                  indiv18 
+              WHERE 
+                  chapter = ? 
+              AND 
+                  id >= 10000''', (school,))
+    students = c.fetchall()
+    schoolList = []
+    for stu in students:
+        studentID = str(stu[0])
+        event = stu[1]
+        try:
+            print("Getting: "+studentID)
+            Ranker(event, sortby, c, studentID, True, schoolList)
+        except(UnboundLocalError):
+            print("Cannot find "+studentID)
+            
+    schoolList.sort()
+    
+    fOut = open("output.txt", "w")
+    fOut2 = open("output.tsv", "w")
+    
+    fOut.write("Individual Series Events:\n")
+    fOut.write("Event\tRank\tID\tName\t\t\tScore\tOral1\tOral2\tExam\tRegion\n")
+    fOut2.write("Event\tRank\tID\tName\tScore\tOral1\tOral2\tExam\tRegion\n")
+    for i in schoolList:
+        rank = i[0]
+        event = i[1]
+        score = i[2]
+        fOut.write(event+"\t"+str(rank)+"\t"+(str(score[0])+"\t"+score[1]).ljust(25, " ")+"\t"+str(score[9])+"\t"+str(score[6])+"\t"+str(score[7])+"\t"+str(score[5])+"\t"+score[2].ljust(12, " ")+"\n")
+        fOut2.write(event+"\t"+str(rank)+"\t"+score[4]+"\t"+str(score[0])+"\t"+score[1]+"\t"+str(score[9])+"\t"+str(score[6])+"\t"+str(score[7])+"\t"+str(score[5])+"\t"+score[2]+"\n")
+
+    fOut.write("\n")
+    c.execute('''
+              SELECT 
+                  comp1s.comp1Name,
+                  comp1s.event
+              FROM (
+                      SELECT 
+                          ids.id AS teamID,
+                          ids.event,
+                          t.region,
+                          ids.chapter, 
+                          ids.exam AS teamexam, 
+                          ids.oral1 AS teamoral1, 
+                          ids.oral2 AS teamoral2, 
+                          ids.penalties AS teampenalties, 
+                          ids.overall AS teamoverall, 
+                          t.id AS comp1ID, 
+                          t.name AS comp1Name, 
+                          t.exam AS comp1Exam, 
+                          t.oral1 AS comp1Oral1, 
+                          t.oral2 AS comp1Oral2, 
+                          t.penalties AS comp1Penalties, 
+                          t.overall AS comp1Overall
+                      FROM 
+                          teamid18 AS ids 
+                      INNER JOIN 
+                          team18 AS t 
+                      ON 
+                          ids.team = t.team
+                      WHERE 
+                          ids.chapter = ?
+                      AND
+                          t.chapter = ?
+                      AND 
+                          ids.event = t.event
+                      ) AS comp1s 
+              LEFT JOIN ( 
+                      SELECT 
+                          ids.id AS teamID, 
+                          t.id AS comp2ID, 
+                          t.name AS comp2Name, 
+                          t.exam AS comp2Exam, 
+                          t.oral1 AS comp2Oral1, 
+                          t.oral2 AS comp2Oral2, 
+                          t.penalties AS comp2Penalties, 
+                          t.overall AS comp2Overall 
+                      FROM 
+                          teamid18 AS ids 
+                      INNER JOIN 
+                          team18 AS t 
+                      ON 
+                          ids.team = t.team
+                      WHERE 
+                          ids.chapter = ?
+                      AND
+                          t.chapter = ?
+                      AND 
+                          ids.event = t.event
+                      ) AS comp2s 
+              ON 
+                  comp1s.teamID = comp2s.teamID 
+              WHERE 
+                  comp1s.comp1Name < comp2s.comp2Name;''', (school, school, school, school))
+    students = c.fetchall()
+    schoolList = []
+    for stu in students:
+        studentID = str(stu[0])
+        event = stu[1]
+        try:
+            print("Getting: "+studentID)
+            Ranker(event, sortby, c, studentID, True, schoolList)
+        except(UnboundLocalError):
+            print("Cannot find "+studentID)
+            
+    schoolList.sort()
+    
+    fOut.write("Team Series Events:\n")
+    fOut.write("Event\tRank\tID\tName\t\t\tID\tName\t\t\tScore\tRegion\n")
+    fOut2.write("Event\tRank\tSchool\tID\tName\tID\tName\tScore\tRegion\n")
+    for i in schoolList:
+        rank = i[0]
+        event = i[1]
+        team = i[2]
+        fOut.write(event+"\t"+str(rank)+"\t"+(str(team[8])+"\t"+team[9]).ljust(25, " ")+"\t"+(str(team[15])+"\t"+team[16]).ljust(25, " ")+"\t"+str(team[7])+"\t"+team[1].ljust(12, " ")+"\n")
+        fOut2.write(event+"\t"+str(rank)+"\t"+str(team[8])+"\t"+team[9]+"\t"+str(team[15])+"\t"+team[16]+"\t"+str(team[7])+"\t"+team[1]+"\n")
+        
+    fOut.close()
+    fOut2.close()
+    c.close()
+    conn.close()
     
 if __name__ == "__main__":
-    Find("Victor Sun", "overall")
+    AllFrom("Glenforest SS", "overall")
