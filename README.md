@@ -19,7 +19,7 @@ Main Program File: ProvsRanker.py
 
 Imported Files: rankerFunctions
 
-Functions:
+**Functions:**
 
 Rank(\<Event Name>, \<Sort By>):
 Event Name must be a DECA event in its abbreviated form, enclosed in quotations.
@@ -45,7 +45,8 @@ Note: This function takes a while longer than the rest
 Examples:
 AllFrom("Iroquois Ridge HS", "oral2")
 
-International Scores: **Only for data structure version**
+**International Scores: (Only for data structure version)**
+
 First score is for exam,
 Next 1/2 scores is for preliminary orals,
 Last score is for final case if qualified, denoted with an "F" in front of the score.
