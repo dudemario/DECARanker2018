@@ -9,9 +9,15 @@ Program: Ranker for 2018 DECA Provincials Competition
 
 ### SQL Version
 
+#### SQLite Version
+
 Main Program File: dbRanker.py
 
 Imported File: dbSetup.py
+
+#### MySQL Version
+
+Website: https://victorsun.ga
 
 ### Data Structure (Classes, Arrays, and Dictionaries) Version
 
