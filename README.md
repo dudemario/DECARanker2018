@@ -17,7 +17,7 @@ Imported File: dbSetup.py
 
 #### MySQL Version
 
-Website: https://victorsun.ga
+Website: https://www.victorsun.ga
 
 ### Data Structure (Classes, Arrays, and Dictionaries) Version
 
